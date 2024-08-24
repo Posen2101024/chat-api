@@ -1,0 +1,19 @@
+[project]
+name = "chat-api"
+version = "0.1.0"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+]
+requires-python = ">=3.10"
+authors = [
+  { name = "Posen", email = "posen2101024@gmail.com" },
+]
+description = "API for chat"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.optional-dependencies]
+test = [
+  "pylint",
+]
